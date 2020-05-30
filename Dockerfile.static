@@ -24,7 +24,7 @@ ENV CONTECO_ENTRYPOINT "/usr/bin/docker/run"
 ENV CONTECO_REALM="vcwebio" \
     CONTECO_ECOSYSTEM="conteco" \
     CONTECO_TYPE="ksqldb_server" \
-    CONTECO_NAME="tocloud" \
+    CONTECO_NAME="sasl" \
     CONTECO_TAG="0.9.0" \
     CONTECO_BASE="external.ksqldb_server:0.9.0" \
     CONTECO_BUILD="image-base"
@@ -32,11 +32,11 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="ksqldb_server" \
-      io.vcweb.name="tocloud" \
+      io.vcweb.name="sasl" \
       io.vcweb.tag="0.9.0" \
       io.vcweb.base="external.ksqldb_server:0.9.0" \
       io.vcweb.build="image-base" \
-      io.vcweb.label="ksqldb_server.tocloud - Conteco " \
-      io.vcweb.description="Confluent ksqlDB Server to cloud image, using default configuration." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.ksqldb_server.tocloud --help"
+      io.vcweb.label="ksqldb_server.sasl - Conteco " \
+      io.vcweb.description="Confluent ksqlDB Server image, using SASL authentication." \
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.ksqldb_server.sasl --help"
 ##### END image.base/Dockerfile/env-labels-footer #####

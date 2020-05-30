@@ -1,6 +1,6 @@
-# `ksqldb_server.tocloud` - ContEco
+# `ksqldb_server.sasl` - ContEco
 
-Confluent ksqlDB Server to cloud image, using default configuration.
+Confluent ksqlDB Server image, using SASL authentication.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Configuration Changes
