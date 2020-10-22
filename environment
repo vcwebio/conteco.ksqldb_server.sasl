@@ -7,5 +7,6 @@ export CONTECO_TYPE="ksqldb_server"
 export CONTECO_NAME="sasl"
 export CONTECO_TAG="0.12.0"
 
-export CONTECO_BASE="external.ksqldb_server:0.12.0"
 export CONTECO_BUILD="image-base"
+
+export CONTECO_EXTERNAL_IMAGE_NAME="confluentinc/ksqldb-server:0.12.0"
